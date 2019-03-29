@@ -60,6 +60,7 @@ ul.mylist {
   list-style-type: square;
   list-style-position: inside;
   padding-left: 10px;
+  padding-right: 10px
 }
 
 ul.mylist li {
@@ -81,6 +82,6 @@ ul.mylist li:last-child {
 }
 
 .mydiv2 {
-  width: 34%;
+  width: 38%;
   background-color: #efefef;
 }
