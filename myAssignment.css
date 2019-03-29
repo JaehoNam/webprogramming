@@ -2,13 +2,27 @@
 
 body {
   background-image: url("https://media.beam.usnews.com/39/9f/053222934d5b9be72874ea3f5a7b/150423-submitted.jpg");
+  background-attachment: scroll;
   font-family: 'Do Hyeon', sans-serif;
   font-size: 15pt;
 }
 
+a:link {
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  color: #FF00BF;
+}
+
+a:visited {
+  color: black;
+}
+
 table {
   border-collapse: collapse;
-  width: 80%;
+  width: 90%;
 }
 
 thead {
@@ -22,6 +36,10 @@ tbody {
 tr {
    border-bottom: 2px solid #BDBDBD;
    padding: 5px;
+}
+
+tr:nth-child(2n) {
+    text-align: center;
 }
 
 th {
@@ -38,18 +56,25 @@ th:first-child {
 td {
   padding: 15px;
   border-right: 1px solid #BDBDBD;
+  width: 20%;
 }
 
 td:first-child {
   border-right: 2px solid #BDBDBD;
   text-align: center;
+  width: 8%;
+}
+
+td:nth-child(4) {
+  padding: 7px;
+  text-align: center;
+  width: 40%;
 }
 
 td:last-child {
-  padding: 5px;
-  text-align: center;
-  border-right: 0px;
-  width: 50%;
+    border-right: 0px;
+    font-size: 12pt;
+    width: 12%;
 }
 
 h1 {
@@ -75,7 +100,7 @@ ul.mylist li:last-child {
 }
 
 .mydiv1 {
-  width: 15%;
+  width: 18%;
   background-color: #cdcdcd;
   font-size: 15pt;
   font-family: Impact;
