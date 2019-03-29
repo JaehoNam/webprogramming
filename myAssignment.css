@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon');
+
+body {
+  background-image: url("https://media.beam.usnews.com/39/9f/053222934d5b9be72874ea3f5a7b/150423-submitted.jpg");
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: 15pt;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+}
+
+thead {
+  background-color: #F5A9F2;
+}
+
+tbody {
+  background-color: #F2E0F7;
+}
+
+tr {
+   border-bottom: 2px solid #BDBDBD;
+   padding: 5px;
+}
+
+th {
+  width: 150px;
+  padding: 5px;
+  border-right: 1px solid #BDBDBD;
+}
+
+th:first-child {
+  width: 80px;
+  border-right: 2px solid #BDBDBD;
+}
+
+td {
+  padding: 15px;
+  border-right: 1px solid #BDBDBD;
+}
+
+td:first-child {
+  border-right: 2px solid #BDBDBD;
+  text-align: center;
+}
+
+td:last-child {
+  padding: 5px;
+  text-align: center;
+  border-right: 0px;
+  width: 50%;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul.mylist {
+  list-style-type: square;
+  list-style-position: inside;
+  padding-left: 10px;
+}
+
+ul.mylist li {
+  margin-bottom: 8px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #222222;
+  font-size: 15px;
+}
+
+ul.mylist li:last-child {
+  border-bottom: 0px;
+}
+
+.mydiv1 {
+  width: 15%;
+  background-color: #cdcdcd;
+  font-size: 15pt;
+  font-family: Impact;
+}
+
+.mydiv2 {
+  width: 34%;
+  background-color: #efefef;
+}
