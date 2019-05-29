@@ -2970,6 +2970,7 @@ input, select, textarea {
 
 				.spotlights > section > .content > .inner {
 					margin: 0 auto;
+					padding-left: 3em;
 					max-width: 100%;
 					width: 65em;
 				}
@@ -2987,6 +2988,7 @@ input, select, textarea {
 					-webkit-align-items: -webkit-flex-end;
 					-ms-align-items: -ms-flex-end;
 					align-items: flex-end;
+					padding-left: 0em;
 				}
 
 		@media screen and (max-width: 1680px) {
